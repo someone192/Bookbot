@@ -80,7 +80,4 @@ def prepare_book(path: str) -> None:
 #prepare_book(os.path.join(sys.path[0], os.path.normpath(BOOK_PATH)))
 
 #print(*_get_part_text(text, 5501, 780), sep='\n')
-
 prepare_book(BOOK_PATH)
-for i, k in book.items():
-    print(i,k,sep=':')
